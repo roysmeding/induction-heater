@@ -14930,7 +14930,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="CB1L" library="rcl" deviceset="C-EU" device="C0805" value="1µF"/>
 <part name="CB2L" library="rcl" deviceset="C-EU" device="C0805" value="1µF"/>
 <part name="CB2H" library="rcl" deviceset="C-EU" device="C0805" value="1µF"/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X4" device="" value="input"/>
+<part name="JP1" library="pinhead" deviceset="PINHD-1X4" device="" value="control"/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X2" device="" value="power"/>
 <part name="CB" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="100µF"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
@@ -14951,8 +14951,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="-2.54" y="86.36" size="1.778" layer="96">CS1L, CS1H, CS2L, CS2H: 4x 0.022µF snubbers</text>
-<text x="-2.54" y="88.9" size="1.778" layer="96">IGBT1L, IGBT1H, IGBT2L, IGBT2H: 4x IXGR32N60CD1</text>
+<text x="-5.08" y="86.36" size="1.778" layer="96">IGBT[12][HL]: 4x IXGR32N60CD1 IXYS IGBTs
+CS[12][HL]: 4x 0.022µF KEMET R76 snubbers
+CF: 3.3µF KEMET R75 filter cap
+DP[12][HL][AB]: 8x 20V zener for protection
+RP[12][HL]: 4x +/- 10kohm
+RG[12][HL]: 4x +/- 47ohm</text>
 </plain>
 <instances>
 <instance part="CF" gate="G$1" x="-30.48" y="53.34" smashed="yes" rot="R90">
@@ -15616,4 +15620,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
