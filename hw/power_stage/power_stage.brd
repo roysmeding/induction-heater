@@ -520,11 +520,12 @@ mains</text>
 <vertex x="4" y="34.25"/>
 <vertex x="4.75" y="34.75"/>
 </polygon>
-<text x="-1.25" y="10.75" size="1.1" layer="21" font="vector" ratio="20" rot="R90" align="top-center">induction heater power stage
+<text x="-1.25" y="-3.25" size="1.15" layer="21" font="vector" ratio="15" rot="R90" align="top-left">induction heater power stage
 revision 1 by Roy Smeding
 March 2015, CC-BY</text>
 <dimension x1="106.25" y1="45.25" x2="106.25" y2="41.25" x3="108" y3="43.25" textsize="1" textratio="20" layer="47" dtype="vertical"/>
 <dimension x1="95.75" y1="27.25" x2="95.75" y2="15.25" x3="99.75" y3="21.25" textsize="1" textratio="20" layer="47" dtype="vertical"/>
+<text x="97" y="-3" size="1.2" layer="21" font="vector" ratio="15" align="bottom-right">roysmeding.nl/projects/induction-heater</text>
 </plain>
 <libraries>
 <library name="induction-heater">
@@ -2706,7 +2707,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <via x="84.5" y="6.25" extent="1-16" drill="0.3"/>
 <via x="76.75" y="6.5" extent="1-16" drill="0.3"/>
 <via x="87" y="2.75" extent="1-16" drill="0.3"/>
-<via x="96.5" y="-2.5" extent="1-16" drill="0.3"/>
+<via x="97" y="-3" extent="1-16" drill="0.3"/>
 <wire x1="66.85" y1="11.845" x2="67.75" y2="11.845" width="0.6" layer="1"/>
 <via x="1" y="2.845" extent="1-16" drill="0.3"/>
 <via x="1" y="18.345" extent="1-16" drill="0.3"/>
@@ -2721,7 +2722,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <via x="50.25" y="8.5" extent="1-16" drill="0.3"/>
 <via x="47.75" y="6.25" extent="1-16" drill="0.3"/>
 <via x="77.75" y="2.5" extent="1-16" drill="0.3"/>
-<via x="82.25" y="-2.5" extent="1-16" drill="0.3"/>
+<via x="81.5" y="-1.75" extent="1-16" drill="0.3"/>
 <via x="96.5" y="14.25" extent="1-16" drill="0.3"/>
 <via x="50.25" y="3" extent="1-16" drill="0.3"/>
 <via x="41.25" y="2.5" extent="1-16" drill="0.3"/>
