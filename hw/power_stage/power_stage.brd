@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -40,7 +40,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -606,6 +606,8 @@ March 2015, CC-BY</text>
 </polygon>
 <text x="87" y="52.75" size="4" layer="21" font="vector" ratio="15" align="center-right">2</text>
 <text x="87" y="32.75" size="4" layer="21" font="vector" ratio="15" align="center-right">1</text>
+<wire x1="115" y1="60.25" x2="115" y2="45.25" width="0.4064" layer="47"/>
+<wire x1="-4" y1="84" x2="-1.75" y2="84" width="0.4064" layer="47"/>
 </plain>
 <libraries>
 <library name="induction-heater">
@@ -688,8 +690,8 @@ Source: http://www.ixys.com/91529.pdf</description>
 <package name="GDT">
 <pad name="S1A" x="7.6" y="7.3" drill="0.8"/>
 <pad name="S1B" x="7.6" y="3.6" drill="0.8"/>
-<pad name="S2A" x="7.6" y="-3.6" drill="0.8"/>
-<pad name="S2B" x="7.6" y="-7.3" drill="0.8"/>
+<pad name="S2B" x="7.6" y="-3.6" drill="0.8"/>
+<pad name="S2A" x="7.6" y="-7.3" drill="0.8"/>
 <pad name="PA" x="-7.6" y="3.6" drill="0.8"/>
 <pad name="PB" x="-7.6" y="-3.6" drill="0.8"/>
 <text x="9.5" y="11" size="1" layer="27" font="vector" ratio="15" align="bottom-right">&gt;VALUE</text>
@@ -2193,9 +2195,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="37" y="29" size="1" layer="25" font="vector" ratio="15" align="center-right"/>
 <attribute name="VALUE" x="40.74" y="28.365" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="RG1L" library="rcl" package="R0805" value="" x="49.3" y="29" smashed="yes" rot="R90">
-<attribute name="NAME" x="48.05" y="29" size="1" layer="25" font="vector" ratio="15" align="center-right"/>
-<attribute name="VALUE" x="51.84" y="28.365" size="1.27" layer="27" rot="R90"/>
+<element name="RG1L" library="rcl" package="R0805" value="" x="49.1" y="29" smashed="yes" rot="R90">
+<attribute name="NAME" x="47.85" y="29" size="1" layer="25" font="vector" ratio="15" align="center-right"/>
+<attribute name="VALUE" x="51.64" y="28.365" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="RG2L" library="rcl" package="R0805" value="" x="81.6" y="29" smashed="yes" rot="R90">
 <attribute name="NAME" x="80.3" y="29" size="1" layer="25" font="vector" ratio="15" align="center-right"/>
@@ -2209,9 +2211,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="30.5" y="73" size="1" layer="25" font="vector" ratio="15" align="center-right"/>
 <attribute name="VALUE" x="33.135" y="75.79" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="RP1L" library="rcl" package="R0805" value="" x="50.25" y="73.25" smashed="yes" rot="R180">
-<attribute name="NAME" x="48.25" y="73.25" size="1" layer="25" font="vector" ratio="15" align="center-right"/>
-<attribute name="VALUE" x="50.885" y="75.79" size="1.27" layer="27" rot="R180"/>
+<element name="RP1L" library="rcl" package="R0805" value="" x="50.05" y="73.25" smashed="yes" rot="R180">
+<attribute name="NAME" x="48.05" y="73.25" size="1" layer="25" font="vector" ratio="15" align="center-right"/>
+<attribute name="VALUE" x="50.685" y="75.79" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="RP2L" library="rcl" package="R0805" value="" x="86.75" y="73.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="84.75" y="73.5" size="1" layer="25" font="vector" ratio="15" align="center-right"/>
@@ -2241,9 +2243,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="38.25" y="74.75" size="1" layer="25" font="vector" ratio="15" align="top-center"/>
 <attribute name="VALUE" x="39.774" y="78.413" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DP1LA" library="diode" package="SOD80C" value="" x="51" y="76" smashed="yes">
-<attribute name="NAME" x="48.25" y="75.5" size="1" layer="25" font="vector" ratio="15" align="center-right"/>
-<attribute name="VALUE" x="49.476" y="73.587" size="1.27" layer="27"/>
+<element name="DP1LA" library="diode" package="SOD80C" value="" x="50.8" y="76" smashed="yes">
+<attribute name="NAME" x="48.05" y="75.5" size="1" layer="25" font="vector" ratio="15" align="center-right"/>
+<attribute name="VALUE" x="49.276" y="73.587" size="1.27" layer="27"/>
 </element>
 <element name="DP1LB" library="diode" package="SOD80C" value="" x="56" y="76" smashed="yes" rot="R180">
 <attribute name="NAME" x="56" y="74.75" size="1" layer="25" font="vector" ratio="15" align="top-center"/>
@@ -2754,20 +2756,16 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <contactref element="IGBT1L" pad="G"/>
 <contactref element="RP1L" pad="2"/>
 <contactref element="DP1LA" pad="C"/>
-<wire x1="49.3" y1="73.25" x2="49.3" y2="76" width="1" layer="1"/>
-<wire x1="49" y1="80.96" x2="49.3" y2="80.66" width="1" layer="1"/>
-<wire x1="49.3" y1="80.66" x2="49.3" y2="76" width="1" layer="1"/>
 <contactref element="RG1L" pad="2"/>
-<wire x1="49.3" y1="29.95" x2="49.25" y2="29.95" width="1" layer="1"/>
-<wire x1="49.25" y1="29.95" x2="49.25" y2="73.25" width="1" layer="1"/>
-<wire x1="49.25" y1="73.25" x2="49.3" y2="73.25" width="1" layer="1"/>
+<wire x1="49.1" y1="73.25" x2="49.1" y2="29.95" width="1" layer="1"/>
+<wire x1="49.1" y1="76" x2="49.1" y2="73.25" width="1" layer="1"/>
+<wire x1="49" y1="80.96" x2="49.1" y2="80.86" width="1" layer="1"/>
+<wire x1="49.1" y1="80.86" x2="49.1" y2="76" width="1" layer="1"/>
 </signal>
 <signal name="N$7" class="1">
 <contactref element="RG1L" pad="1"/>
 <contactref element="GDT1" pad="S2B"/>
-<wire x1="52.8" y1="22.6" x2="50.61801875" y2="24.78198125" width="1" layer="1"/>
-<wire x1="50.61801875" y1="24.78198125" x2="49.3" y2="27.9639625" width="1" layer="1" curve="-45"/>
-<wire x1="49.3" y1="27.9639625" x2="49.3" y2="28.05" width="1" layer="1"/>
+<wire x1="49.1" y1="28.05" x2="49.1" y2="22.6" width="1" layer="1"/>
 </signal>
 <signal name="N$10" class="1">
 <contactref element="IGBT2L" pad="G"/>
@@ -2787,11 +2785,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <signal name="N$12" class="1">
 <contactref element="RG2L" pad="1"/>
 <contactref element="GDT2" pad="S2B"/>
-<wire x1="81.6" y1="28.05" x2="81.6" y2="27.42843125" width="1" layer="1"/>
-<wire x1="81.6" y1="27.42843125" x2="84.1857875" y2="21.1857875" width="1" layer="1" curve="45"/>
-<wire x1="84.1857875" y1="21.1857875" x2="87.0142125" y2="21.1857875" width="1" layer="1" curve="90"/>
-<wire x1="87.0142125" y1="21.1857875" x2="87.812128125" y2="21.983703125" width="1" layer="1"/>
-<wire x1="87.812128125" y1="21.983703125" x2="89.3" y2="22.6" width="1" layer="1" curve="-45"/>
+<wire x1="85.6" y1="22.6" x2="82.62530625" y2="25.57469375" width="1" layer="1"/>
+<wire x1="82.62530625" y1="25.57469375" x2="81.6" y2="28.05" width="1" layer="1" curve="-45"/>
 </signal>
 <signal name="N$13" class="1">
 <contactref element="GDT2" pad="S1A"/>
@@ -2961,7 +2956,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <signal name="N$17">
 <contactref element="DP1LA" pad="A"/>
 <contactref element="DP1LB" pad="A"/>
-<wire x1="52.7" y1="76" x2="54.3" y2="76" width="1.4" layer="1"/>
+<wire x1="52.5" y1="76" x2="54.3" y2="76" width="1.4" layer="1"/>
 </signal>
 <signal name="N$23">
 <contactref element="DP2HA" pad="A"/>
@@ -3149,7 +3144,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <vertex x="25.75" y="78.25"/>
 <vertex x="23.5" y="78.25" curve="-90"/>
 </polygon>
-<wire x1="51.2" y1="73.25" x2="54.607359375" y2="73.25" width="1" layer="1"/>
+<wire x1="51" y1="73.25" x2="54.607359375" y2="73.25" width="1" layer="1"/>
 <wire x1="54.607359375" y1="73.25" x2="56.728678125" y2="74.128678125" width="1" layer="1" curve="44.999958"/>
 <wire x1="56.728678125" y1="74.128678125" x2="57.8" y2="75.2" width="1" layer="1"/>
 <wire x1="60" y1="77.4" x2="60" y2="80.96" width="1" layer="1"/>
@@ -3165,24 +3160,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="95.28786875" y1="76.78786875" x2="94.75" y2="76.25" width="2" layer="1"/>
 <wire x1="94.75" y1="76.25" x2="94.75" y2="75.65" width="1" layer="1"/>
 <wire x1="94.75" y1="75.65" x2="94.3" y2="75.2" width="1" layer="1"/>
-<wire x1="51.2" y1="73.25" x2="51.25" y2="73.25" width="1" layer="1"/>
-<wire x1="51.25" y1="73.25" x2="51.25" y2="28.035534375" width="1" layer="1"/>
-<wire x1="51.25" y1="28.035534375" x2="51.982234375" y2="26.267765625" width="1" layer="1" curve="45.000051"/>
-<wire x1="51.982234375" y1="26.267765625" x2="54.2142125" y2="24.0357875" width="1" layer="1"/>
-<wire x1="54.2142125" y1="24.0357875" x2="54.8" y2="22.621571875" width="1" layer="1" curve="-45.00009"/>
-<wire x1="54.8" y1="22.621571875" x2="54.8" y2="22.6" width="1" layer="1"/>
-<wire x1="54.8" y1="22.6" x2="52.8" y2="20.6" width="1" layer="1" curve="-90"/>
-<wire x1="52.8" y1="20.6" x2="51.385790625" y2="21.185784375" width="1" layer="1" curve="-45"/>
-<wire x1="51.385790625" y1="21.185784375" x2="50.5573625" y2="22.0142125" width="1" layer="1"/>
-<wire x1="50.5573625" y1="22.0142125" x2="49.143146875" y2="22.6" width="1" layer="1" curve="45.00009"/>
-<wire x1="49.143146875" y1="22.6" x2="49.1" y2="22.6" width="1" layer="1"/>
 <wire x1="83.6" y1="58.064465625" x2="84.332234375" y2="59.832234375" width="1" layer="1" curve="-45.000051"/>
 <wire x1="84.332234375" y1="59.832234375" x2="86.43198125" y2="61.93198125" width="1" layer="1"/>
 <wire x1="86.43198125" y1="61.93198125" x2="87.75" y2="65.1139625" width="1" layer="1" curve="45"/>
 <wire x1="87.75" y1="65.1139625" x2="87.75" y2="73.5" width="1" layer="1"/>
 <wire x1="87.75" y1="73.5" x2="87.7" y2="73.5" width="1" layer="1"/>
-<wire x1="83.6" y1="58.064465625" x2="83.6" y2="27.428428125" width="1" layer="1"/>
-<wire x1="83.6" y1="27.428428125" x2="85.6" y2="22.6" width="1" layer="1" curve="45"/>
+<wire x1="89.3" y1="22.6" x2="84.447821875" y2="27.452178125" width="1" layer="1"/>
+<wire x1="84.447821875" y1="27.452178125" x2="83.6" y2="29.499" width="1" layer="1" curve="-45"/>
+<wire x1="83.6" y1="29.499" x2="83.6" y2="58.064465625" width="1" layer="1"/>
 <via x="23.25" y="82" extent="1-16" drill="0.4"/>
 <via x="26" y="82" extent="1-16" drill="0.4"/>
 <via x="26" y="79" extent="1-16" drill="0.4"/>
@@ -3223,6 +3208,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <via x="96.5" y="76.75" extent="1-16" drill="0.4"/>
 <via x="62.25" y="75.5" extent="1-16" drill="0.4"/>
 <via x="62.25" y="80" extent="1-16" drill="0.4"/>
+<wire x1="52.8" y1="22.6" x2="51" y2="26.945584375" width="1" layer="1" curve="-45"/>
+<wire x1="51" y1="26.945584375" x2="51" y2="73.25" width="1" layer="1"/>
 </signal>
 <signal name="V+">
 <contactref element="CF" pad="P$2"/>
