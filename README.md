@@ -24,5 +24,5 @@ This work is licensed under the Creative Commons Attribution 4.0 International
 License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
 
 ## Contact
-Your best bet contact the primary suspect (Roy Smeding;
-roy.smeding@gmail.com) for more information.
+Your best bet is to contact the primary suspect (Roy Smeding; roy.smeding@gmail.com)
+for more information.
