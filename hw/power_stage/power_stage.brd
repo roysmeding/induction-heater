@@ -76,6 +76,8 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
@@ -142,7 +144,7 @@
 <wire x1="98" y1="-4" x2="98" y2="96" width="0" layer="20"/>
 <wire x1="98" y1="96" x2="-2" y2="96" width="0" layer="20"/>
 <wire x1="-2" y1="96" x2="-2" y2="-4" width="0" layer="20"/>
-<dimension x1="-2" y1="96" x2="-2" y2="-4" x3="-19.999996875" y3="46" textsize="1.778" layer="47" width="0.2"/>
+<dimension x1="-2" y1="96" x2="-2" y2="-4" x3="-16.999996875" y3="46" textsize="1.778" layer="47" width="0.2"/>
 <dimension x1="-2" y1="-4" x2="98" y2="-4" x3="48" y3="-11" textsize="1.778" layer="47"/>
 <dimension x1="-0.75" y1="86.5" x2="-0.75" y2="95.5" x3="-8.999996875" y3="91" textsize="2" layer="47" width="0.1"/>
 <wire x1="-1.25" y1="32" x2="20.92893125" y2="32" width="0.4" layer="21" style="shortdash"/>
@@ -165,246 +167,201 @@
 <text x="65.75" y="21.75" size="3" layer="21" font="vector" ratio="15" align="top-center">CTRL</text>
 <text x="9" y="32.75" size="3" layer="21" font="vector" ratio="15" align="bottom-center">HV</text>
 <text x="65.25" y="23.25" size="3" layer="21" font="vector" ratio="15" align="bottom-center">HV</text>
-<dimension x1="-14" y1="59" x2="-14" y2="54" x3="-16" y3="56.5" textsize="2" textratio="15" layer="47" width="0.1"/>
 <dimension x1="1.25" y1="39" x2="1.25" y2="25" x3="-3" y3="32" textsize="2" textratio="15" layer="47" width="0.1"/>
 <dimension x1="52.5" y1="20.1" x2="52.5" y2="15.25" x3="46" y3="17.675" textsize="2" textratio="15" layer="47" width="0.1"/>
 <dimension x1="85.5" y1="20.1" x2="85.5" y2="15.25" x3="82" y3="17.675" textsize="2" textratio="15" layer="47" width="0.1"/>
-<dimension x1="96.5" y1="40.25" x2="96.5" y2="45.25" x3="101" y3="42.75" textsize="2" textratio="15" layer="47" width="0.1"/>
+<dimension x1="96.5" y1="41.45" x2="96.5" y2="44.05" x3="101" y3="42.75" textsize="2" textratio="15" layer="47" width="0.1"/>
 <text x="87.5" y="43" size="3.5" layer="21" font="vector" ratio="15" distance="10" align="center-right">to
 xformer</text>
-<text x="7" y="12.5" size="2" layer="21" font="vector" ratio="15" align="center-right">1</text>
-<text x="7" y="7.25" size="2" layer="21" font="vector" ratio="15" align="center-right">2</text>
-<wire x1="5.875" y1="10.5" x2="5.875" y2="9.5" width="0.3" layer="21"/>
+<text x="6" y="12.5" size="2" layer="21" font="vector" ratio="15" align="center-right">1</text>
+<text x="6" y="7.25" size="2" layer="21" font="vector" ratio="15" align="center-right">2</text>
+<wire x1="4.875" y1="10.5" x2="4.875" y2="9.5" width="0.3" layer="21"/>
 <polygon width="0.3" layer="21">
-<vertex x="6.625" y="9.5"/>
-<vertex x="6.625" y="9.25"/>
-<vertex x="5.125" y="9.25"/>
-<vertex x="5.125" y="9.5"/>
+<vertex x="5.625" y="9.5"/>
+<vertex x="5.625" y="9.25"/>
+<vertex x="4.125" y="9.25"/>
+<vertex x="4.125" y="9.5"/>
 </polygon>
-<wire x1="5.875" y1="5.5" x2="5.875" y2="4.5" width="0.3" layer="21"/>
+<wire x1="4.875" y1="5.5" x2="4.875" y2="4.5" width="0.3" layer="21"/>
 <polygon width="0.3" layer="21">
-<vertex x="6.625" y="4.5"/>
-<vertex x="6.625" y="4.25"/>
-<vertex x="5.125" y="4.25"/>
-<vertex x="5.125" y="4.5"/>
+<vertex x="5.625" y="4.5"/>
+<vertex x="5.625" y="4.25"/>
+<vertex x="4.125" y="4.25"/>
+<vertex x="4.125" y="4.5"/>
 </polygon>
 <text x="10" y="56.5" size="3.5" layer="21" font="vector" ratio="15" distance="30" align="center-left">from
 mains</text>
-<text x="10" y="66.5" size="4" layer="21" font="vector" ratio="15" align="center-left">1</text>
-<text x="10" y="46.5" size="4" layer="21" font="vector" ratio="15" align="center-left">2</text>
 <polygon width="0.4" layer="30">
-<vertex x="8" y="82.5"/>
+<vertex x="9" y="82.5"/>
 <vertex x="10" y="82.5" curve="-90"/>
 <vertex x="11" y="81.5"/>
-<vertex x="11" y="63.25" curve="-90"/>
-<vertex x="7.25" y="59.5"/>
-<vertex x="-0.25" y="59.5" curve="-90"/>
-<vertex x="-1.25" y="60.5"/>
-<vertex x="-1.25" y="72.5" curve="-90"/>
-<vertex x="-0.25" y="73.5"/>
-<vertex x="1.75" y="73.5" curve="90"/>
-<vertex x="7" y="78.75"/>
-<vertex x="7" y="81.5" curve="-90"/>
+<vertex x="11" y="72.3" curve="-90"/>
+<vertex x="6" y="67.3"/>
+<vertex x="2.75" y="67.3" curve="-90"/>
+<vertex x="-0.25" y="70.3"/>
+<vertex x="-0.25" y="70.5" curve="-90"/>
+<vertex x="2.75" y="72.5" curve="90"/>
+<vertex x="8" y="77.75"/>
+<vertex x="8" y="81.5" curve="-90"/>
 </polygon>
 <polygon width="0.4" layer="30">
-<vertex x="1.75" y="77.5"/>
+<vertex x="0.75" y="77.5"/>
 <vertex x="0.25" y="77.5" curve="-90"/>
 <vertex x="-0.75" y="78.5"/>
 <vertex x="-0.75" y="90" curve="-90"/>
 <vertex x="-0.25" y="90.5"/>
-<vertex x="0.37868125" y="90.5" curve="-45"/>
-<vertex x="1.866115625" y="89.883884375" curve="45.000042"/>
+<vertex x="-0.22131875" y="90.5" curve="-45"/>
+<vertex x="0.866115625" y="89.883884375" curve="45.000042"/>
 <vertex x="4" y="89" curve="90"/>
-<vertex x="7" y="92"/>
-<vertex x="7" y="93.75" curve="-90"/>
-<vertex x="8" y="94.75"/>
-<vertex x="90" y="94.75" curve="-90"/>
-<vertex x="91" y="93.75"/>
+<vertex x="8" y="92"/>
+<vertex x="8" y="92.75" curve="-90"/>
+<vertex x="9" y="93.75"/>
+<vertex x="90" y="93.75" curve="-90"/>
+<vertex x="91" y="92.75"/>
 <vertex x="91" y="92" curve="90"/>
 <vertex x="94" y="89"/>
 <vertex x="95.75" y="89" curve="-90"/>
-<vertex x="96.75" y="88" curve="-90"/>
-<vertex x="95.75" y="87"/>
-<vertex x="79" y="87" curve="90"/>
-<vertex x="74" y="82"/>
-<vertex x="74" y="71.560659375" curve="-44.999831"/>
-<vertex x="73.78033125" y="71.03033125"/>
-<vertex x="66.21966875" y="63.46966875" curve="-44.999761"/>
-<vertex x="65.689340625" y="63.25"/>
-<vertex x="62.75" y="63.25" curve="-90"/>
-<vertex x="62" y="64"/>
-<vertex x="62" y="67.689340625" curve="-44.999831"/>
-<vertex x="62.21966875" y="68.21966875"/>
-<vertex x="68" y="74" curve="90"/>
-<vertex x="72.5" y="78.5"/>
-<vertex x="72.5" y="82" curve="90"/>
-<vertex x="67.5" y="87"/>
-<vertex x="42.5" y="87" curve="90"/>
-<vertex x="37.5" y="82"/>
-<vertex x="37.5" y="77.967515625" curve="-45.000027"/>
-<vertex x="36.10875625" y="74.60875625"/>
-<vertex x="33.287690625" y="71.787690625" curve="45.000034"/>
-<vertex x="31.75" y="68.075378125"/>
-<vertex x="31.75" y="34.724875" curve="-135"/>
-<vertex x="28.7625625" y="33.4874375"/>
-<vertex x="23.2625625" y="38.9874375" curve="-45"/>
-<vertex x="22.75" y="40.224875"/>
-<vertex x="22.75" y="73.75" curve="-90"/>
-<vertex x="23.5" y="74.5"/>
-<vertex x="30.325378125" y="74.5" curve="45.000024"/>
-<vertex x="34.037690625" y="76.037690625"/>
-<vertex x="34.462309375" y="76.462309375" curve="45.000034"/>
-<vertex x="36" y="80.174621875"/>
-<vertex x="36" y="82" curve="90"/>
-<vertex x="31" y="87"/>
-<vertex x="8.25" y="87" curve="90"/>
-<vertex x="3" y="81.75"/>
-<vertex x="3" y="79" curve="-90"/>
+<vertex x="96.25" y="88.5" curve="-90"/>
+<vertex x="95.75" y="88"/>
+<vertex x="79" y="88" curve="90"/>
+<vertex x="74" y="83"/>
+<vertex x="74" y="72.560659375" curve="-44.999831"/>
+<vertex x="73.78033125" y="72.03033125"/>
+<vertex x="66.21966875" y="64.46966875" curve="-44.999761"/>
+<vertex x="65.689340625" y="64.25"/>
+<vertex x="62.75" y="64.25" curve="-90"/>
+<vertex x="62" y="65"/>
+<vertex x="62" y="66.689340625" curve="-44.999831"/>
+<vertex x="62.21966875" y="67.21966875"/>
+<vertex x="68" y="73" curve="90"/>
+<vertex x="72.5" y="77.5"/>
+<vertex x="72.5" y="83" curve="90"/>
+<vertex x="67.5" y="88"/>
+<vertex x="42.5" y="88" curve="90"/>
+<vertex x="37.5" y="83"/>
+<vertex x="37.5" y="78.967515625" curve="-45.000027"/>
+<vertex x="36.10875625" y="75.60875625"/>
+<vertex x="32.287690625" y="71.787690625" curve="45.000034"/>
+<vertex x="30.75" y="68.075378125"/>
+<vertex x="30.75" y="34.724875" curve="-135"/>
+<vertex x="28.7625625" y="34.4874375"/>
+<vertex x="24.2625625" y="38.9874375" curve="-45"/>
+<vertex x="23.75" y="40.224875"/>
+<vertex x="23.75" y="72.75" curve="-90"/>
+<vertex x="24.5" y="73.5"/>
+<vertex x="30.325378125" y="73.5" curve="45.000024"/>
+<vertex x="34.037690625" y="75.037690625"/>
+<vertex x="34.462309375" y="75.462309375" curve="45.000034"/>
+<vertex x="36" y="79.174621875"/>
+<vertex x="36" y="83" curve="90"/>
+<vertex x="31" y="88"/>
+<vertex x="7.25" y="88" curve="90"/>
+<vertex x="2" y="82.75"/>
+<vertex x="2" y="79" curve="-90"/>
 </polygon>
 <polygon width="0.4" layer="29">
 <vertex x="96.75" y="79.25"/>
 <vertex x="96.75" y="86.25" curve="90"/>
 <vertex x="94" y="89" curve="-90"/>
 <vertex x="91" y="92"/>
-<vertex x="91" y="93.75" curve="90"/>
-<vertex x="90" y="94.75"/>
-<vertex x="8" y="94.75" curve="90"/>
-<vertex x="7" y="93.75"/>
-<vertex x="7" y="92" curve="-90"/>
+<vertex x="91" y="92.75" curve="90"/>
+<vertex x="90" y="93.75"/>
+<vertex x="9" y="93.75" curve="90"/>
+<vertex x="8" y="92.75"/>
+<vertex x="8" y="92" curve="-90"/>
 <vertex x="4" y="89" curve="-45.000042"/>
-<vertex x="1.866115625" y="89.883884375" curve="45"/>
-<vertex x="0.37868125" y="90.5"/>
+<vertex x="0.866115625" y="89.883884375" curve="45"/>
+<vertex x="-0.22131875" y="90.5"/>
 <vertex x="-0.25" y="90.5" curve="90"/>
 <vertex x="-0.75" y="90"/>
-<vertex x="-0.75" y="87.5" curve="90"/>
-<vertex x="-0.25" y="87"/>
-<vertex x="17.5" y="87" curve="-90"/>
-<vertex x="22.75" y="81.75"/>
-<vertex x="22.75" y="79.25" curve="90"/>
-<vertex x="23.5" y="78.5"/>
+<vertex x="-0.75" y="88.5" curve="90"/>
+<vertex x="-0.25" y="88"/>
+<vertex x="18.5" y="88" curve="-90"/>
+<vertex x="23.75" y="82.75"/>
+<vertex x="23.75" y="79.25" curve="90"/>
+<vertex x="24.5" y="78.5"/>
 <vertex x="25.75" y="78.5" curve="90"/>
 <vertex x="26.5" y="79.25"/>
-<vertex x="26.5" y="82" curve="-90"/>
-<vertex x="31.5" y="87"/>
-<vertex x="54.25" y="87" curve="-90"/>
-<vertex x="59.25" y="82"/>
+<vertex x="26.5" y="83" curve="-90"/>
+<vertex x="31.5" y="88"/>
+<vertex x="54.25" y="88" curve="-90"/>
+<vertex x="59.25" y="83"/>
 <vertex x="59.25" y="79" curve="45"/>
 <vertex x="60.25" y="78.5"/>
-<vertex x="61.75" y="78.5" curve="90"/>
-<vertex x="62.75" y="79.5"/>
-<vertex x="62.75" y="82" curve="-90"/>
-<vertex x="67.75" y="87"/>
-<vertex x="90.75" y="87" curve="-90"/>
-<vertex x="95.75" y="82"/>
+<vertex x="60.75" y="78.5" curve="90"/>
+<vertex x="61.75" y="79.5"/>
+<vertex x="61.75" y="83" curve="-90"/>
+<vertex x="66.75" y="88"/>
+<vertex x="90.75" y="88" curve="-90"/>
+<vertex x="95.75" y="83"/>
 <vertex x="95.75" y="79.25"/>
 </polygon>
 <polygon width="0.4" layer="30">
-<vertex x="-0.25" y="53.5"/>
-<vertex x="5.5" y="53.5" curve="90"/>
-<vertex x="15.25" y="63.25"/>
-<vertex x="15.25" y="81.5" curve="-90"/>
-<vertex x="16.25" y="82.5"/>
-<vertex x="17.75" y="82.5" curve="-90"/>
 <vertex x="18.75" y="81.5"/>
-<vertex x="18.75" y="41.5" curve="-90"/>
-<vertex x="16.75" y="39.5"/>
-<vertex x="-0.25" y="39.5" curve="-90"/>
-<vertex x="-1.25" y="40.5"/>
-<vertex x="-1.25" y="52.5" curve="-90"/>
+<vertex x="18.75" y="60.5" curve="-90"/>
+<vertex x="15.75" y="57.5"/>
+<vertex x="2.75" y="57.5" curve="-90"/>
+<vertex x="-0.25" y="60.5"/>
+<vertex x="-0.25" y="60.7" curve="-90"/>
+<vertex x="2.75" y="63.7"/>
+<vertex x="11.25" y="63.7" curve="90"/>
+<vertex x="16.25" y="68.7"/>
+<vertex x="16.25" y="81.5" curve="-90"/>
+<vertex x="17.25" y="82.5"/>
+<vertex x="17.75" y="82.5" curve="-90"/>
 </polygon>
 <polygon width="0.4" layer="30">
-<vertex x="80.75" y="82"/>
-<vertex x="80.75" y="79.75" curve="90"/>
-<vertex x="85.5" y="75" curve="90"/>
-<vertex x="90.25" y="79.75"/>
+<vertex x="79.75" y="82"/>
+<vertex x="79.75" y="78.75" curve="90"/>
+<vertex x="84.5" y="74" curve="90"/>
+<vertex x="90.25" y="77.75"/>
 <vertex x="90.25" y="82.25" curve="-90"/>
 <vertex x="91" y="83" curve="-90"/>
 <vertex x="91.75" y="82.25"/>
-<vertex x="91.75" y="63.25" curve="90"/>
-<vertex x="96.25" y="58.75" curve="-90"/>
-<vertex x="97.25" y="57.75"/>
-<vertex x="97.25" y="46.75" curve="-90"/>
-<vertex x="96.25" y="45.75"/>
-<vertex x="70.963078125" y="45.75" curve="66.964316"/>
-<vertex x="69.4874375" y="52.0658625"/>
-<vertex x="62" y="59.25"/>
-<vertex x="65.732234375" y="59.25" curve="45"/>
-<vertex x="68.75" y="60.5"/>
-<vertex x="76.7625625" y="68.5125625" curve="45"/>
-<vertex x="78" y="71.5"/>
+<vertex x="91.75" y="60.25" curve="90"/>
+<vertex x="96.25" y="55.75"/>
+<vertex x="96.25" y="45.55" curve="-90"/>
+<vertex x="95.25" y="44.55"/>
+<vertex x="71.163078125" y="44.55" curve="90"/>
+<vertex x="71.4874375" y="51.0658625"/>
+<vertex x="64" y="58.25"/>
+<vertex x="65.732234375" y="58.25" curve="45"/>
+<vertex x="68.75" y="59.5"/>
+<vertex x="76.7625625" y="67.5125625" curve="45"/>
+<vertex x="78" y="70.5"/>
 <vertex x="78" y="81.75" curve="-90"/>
 <vertex x="79.25" y="83"/>
-<vertex x="79.75" y="83" curve="-90"/>
+<vertex x="78.75" y="83" curve="-90"/>
 </polygon>
 <polygon width="0.4" layer="30">
-<vertex x="51.75" y="72.5"/>
-<vertex x="54.810659375" y="75.560659375" curve="45.000119"/>
-<vertex x="55.25" y="76.621321875"/>
+<vertex x="50.75" y="72.5"/>
+<vertex x="54.810659375" y="76.560659375" curve="45.000119"/>
+<vertex x="55.25" y="77.621321875"/>
 <vertex x="55.25" y="82.25" curve="90"/>
 <vertex x="54.5" y="83" curve="90"/>
 <vertex x="53.75" y="82.25"/>
-<vertex x="53.75" y="79.5" curve="-90"/>
-<vertex x="49.25" y="75" curve="-90"/>
-<vertex x="44.25" y="79.5"/>
+<vertex x="53.75" y="78.5" curve="-90"/>
+<vertex x="49.25" y="74" curve="-90"/>
+<vertex x="44.25" y="78.5"/>
 <vertex x="44.25" y="82" curve="90"/>
 <vertex x="43.25" y="83"/>
 <vertex x="42.5" y="83" curve="90"/>
 <vertex x="41.5" y="82"/>
-<vertex x="41.5" y="78.12436875" curve="-45"/>
-<vertex x="38.937184375" y="71.937184375"/>
-<vertex x="36.189340625" y="69.189340625" curve="45.000119"/>
-<vertex x="35.75" y="68.128678125"/>
-<vertex x="35.75" y="32.5" curve="90"/>
-<vertex x="40.5" y="27.75"/>
-<vertex x="96.25" y="27.75" curve="90"/>
-<vertex x="97.25" y="28.75"/>
-<vertex x="97.25" y="39" curve="90"/>
-<vertex x="96.5" y="39.75"/>
-<vertex x="63.07106875" y="39.75" curve="-45"/>
-<vertex x="59.535534375" y="41.214465625"/>
-<vertex x="52.548096875" y="47.951903125" curve="-45"/>
-<vertex x="50.25" y="53.5"/>
-<vertex x="50.25" y="68.878678125" curve="-45"/>
-</polygon>
-<polygon width="0.4" layer="29">
-<vertex x="9.25" y="61.5"/>
-<vertex x="9.25" y="72.75" curve="90"/>
-<vertex x="8.5" y="73.5"/>
-<vertex x="-0.5" y="73.5" curve="90"/>
-<vertex x="-1.25" y="72.75"/>
-<vertex x="-1.25" y="60.25" curve="90"/>
-<vertex x="-0.5" y="59.5"/>
-<vertex x="7.25" y="59.5" curve="90"/>
-</polygon>
-<polygon width="0.4" layer="29">
-<vertex x="-0.5" y="39.5"/>
-<vertex x="8.5" y="39.5" curve="90"/>
-<vertex x="9.25" y="40.25"/>
-<vertex x="9.25" y="52.75" curve="90"/>
-<vertex x="8.5" y="53.5"/>
-<vertex x="-0.5" y="53.5" curve="90"/>
-<vertex x="-1.25" y="52.75"/>
-<vertex x="-1.25" y="40.25" curve="90"/>
-</polygon>
-<polygon width="0.4" layer="29">
-<vertex x="88.25" y="45.75"/>
-<vertex x="96.5" y="45.75" curve="90"/>
-<vertex x="97.25" y="46.5"/>
-<vertex x="97.25" y="58" curve="90"/>
-<vertex x="96.5" y="58.75"/>
-<vertex x="88.25" y="58.75" curve="90"/>
-<vertex x="87.5" y="58"/>
-<vertex x="87.5" y="46.5" curve="90"/>
-</polygon>
-<polygon width="0.4" layer="29">
-<vertex x="87.5" y="39"/>
-<vertex x="87.5" y="28.5" curve="90"/>
-<vertex x="88.25" y="27.75"/>
-<vertex x="96.5" y="27.75" curve="90"/>
-<vertex x="97.25" y="28.5"/>
-<vertex x="97.25" y="39" curve="90"/>
-<vertex x="96.5" y="39.75"/>
-<vertex x="88.25" y="39.75" curve="90"/>
+<vertex x="41.5" y="77.12436875" curve="-45"/>
+<vertex x="38.937184375" y="70.937184375"/>
+<vertex x="37.189340625" y="69.189340625" curve="45.000119"/>
+<vertex x="36.75" y="68.128678125"/>
+<vertex x="36.75" y="35.5" curve="90"/>
+<vertex x="41.5" y="30.75"/>
+<vertex x="96.25" y="29.75" curve="90"/>
+<vertex x="97.25" y="30.75"/>
+<vertex x="97.25" y="40.2" curve="90"/>
+<vertex x="96.5" y="40.95"/>
+<vertex x="66.57106875" y="39.95" curve="-90"/>
+<vertex x="57.335534375" y="42.414465625"/>
+<vertex x="51.548096875" y="47.951903125" curve="-45"/>
+<vertex x="49.25" y="53.5"/>
+<vertex x="49.25" y="68.878678125" curve="-45"/>
 </polygon>
 <wire x1="5" y1="-1.75" x2="5" y2="-2.75" width="0.3" layer="21"/>
 <polygon width="0.3" layer="21">
@@ -436,32 +393,32 @@ mains</text>
 <vertex x="95.75" y="82.5" curve="-90"/>
 </polygon>
 <polygon width="0.4" layer="30">
-<vertex x="59.25" y="76.57106875"/>
+<vertex x="59.25" y="75.57106875"/>
 <vertex x="59.25" y="81.5" curve="-90"/>
 <vertex x="60.75" y="83"/>
-<vertex x="61.25" y="83" curve="-90"/>
-<vertex x="62.75" y="81.5"/>
-<vertex x="62.75" y="75.6642125" curve="-45"/>
-<vertex x="62.45710625" y="74.95710625"/>
-<vertex x="59.214465625" y="71.714465625" curve="45"/>
-<vertex x="57.75" y="68.17893125"/>
-<vertex x="57.75" y="60.07106875" curve="45"/>
-<vertex x="59.214465625" y="56.535534375"/>
-<vertex x="66.7625625" y="48.9874375" curve="-90"/>
-<vertex x="66.7625625" y="46.5125625"/>
-<vertex x="64.6642125" y="44.4142125" curve="-90"/>
-<vertex x="61.8357875" y="44.4142125"/>
-<vertex x="55.714465625" y="50.535534375" curve="-45"/>
-<vertex x="54.25" y="54.07106875"/>
-<vertex x="54.25" y="68.671571875" curve="-45.000063"/>
-<vertex x="54.8357875" y="70.0857875"/>
-<vertex x="57.785534375" y="73.035534375" curve="45"/>
+<vertex x="60.25" y="83" curve="-90"/>
+<vertex x="61.75" y="81.5"/>
+<vertex x="61.75" y="75.6642125" curve="-45"/>
+<vertex x="61.45710625" y="74.95710625"/>
+<vertex x="59.214465625" y="72.714465625" curve="45"/>
+<vertex x="57.75" y="69.17893125"/>
+<vertex x="57.75" y="59.07106875" curve="45"/>
+<vertex x="59.214465625" y="55.535534375"/>
+<vertex x="65.7625625" y="48.9874375" curve="-90"/>
+<vertex x="65.7625625" y="46.5125625"/>
+<vertex x="64.6642125" y="45.4142125" curve="-90"/>
+<vertex x="61.8357875" y="45.4142125"/>
+<vertex x="56.714465625" y="50.535534375" curve="-45"/>
+<vertex x="55.25" y="54.07106875"/>
+<vertex x="55.25" y="68.671571875" curve="-45.000063"/>
+<vertex x="55.8357875" y="70.0857875"/>
+<vertex x="57.785534375" y="72.035534375" curve="45"/>
 </polygon>
 <dimension x1="-2" y1="90" x2="-1" y2="90" x3="-1.5" y3="88.749996875" textsize="1" textratio="15" layer="47" dtype="horizontal"/>
 <dimension x1="11" y1="96" x2="11" y2="95" x3="9" y3="95.5" textsize="1" textratio="15" layer="47" dtype="vertical"/>
 <dimension x1="98" y1="95" x2="97" y2="95" x3="97.5" y3="89" textsize="1" textratio="15" layer="47" dtype="horizontal"/>
 <dimension x1="97" y1="96" x2="97" y2="95" x3="96" y3="95.5" textsize="1" textratio="15" layer="47" dtype="vertical"/>
-<dimension x1="1" y1="54" x2="1" y2="59" x3="-4" y3="56.5" textsize="1" textratio="15" layer="47" dtype="vertical"/>
+<dimension x1="1" y1="55.2" x2="1" y2="57.8" x3="-4" y3="56.5" textsize="1" textratio="15" layer="47" dtype="vertical"/>
 <text x="8.5" y="32.75" size="3" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">HV</text>
 <text x="8" y="31.25" size="3" layer="22" font="vector" ratio="15" rot="MR0" align="top-center">CTRL</text>
 <text x="64.5" y="23.25" size="3" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">HV</text>
@@ -482,14 +439,14 @@ mains</text>
 <wire x1="5.875" y1="23" x2="5.875" y2="21.5" width="0.3" layer="21"/>
 <wire x1="5.125" y1="22.25" x2="6.625" y2="22.25" width="0.3" layer="21"/>
 <polygon width="0.4" layer="30">
-<vertex x="22.75" y="79.25"/>
-<vertex x="22.75" y="81.75" curve="-90"/>
-<vertex x="23.5" y="82.5"/>
+<vertex x="23.75" y="79.25"/>
+<vertex x="23.75" y="81.75" curve="-90"/>
+<vertex x="24.5" y="82.5"/>
 <vertex x="25.75" y="82.5" curve="-90"/>
 <vertex x="26.5" y="81.75"/>
 <vertex x="26.5" y="79.25" curve="-90"/>
 <vertex x="25.75" y="78.5"/>
-<vertex x="23.5" y="78.5" curve="-90"/>
+<vertex x="24.5" y="78.5" curve="-90"/>
 </polygon>
 <polygon width="0.4" layer="22">
 <vertex x="59.75" y="26.75"/>
@@ -574,7 +531,6 @@ mains</text>
 <text x="-1.5" y="-3.25" size="1.15" layer="21" font="vector" ratio="15" rot="R90" align="top-left">induction heater power stage
 revision 1 by Roy Smeding
 March 2015, CC-BY</text>
-<dimension x1="106.25" y1="45.25" x2="106.25" y2="40.25" x3="108" y3="42.75" textsize="1" textratio="20" layer="47" dtype="vertical"/>
 <dimension x1="95.75" y1="27.25" x2="95.75" y2="15.25" x3="99.75" y3="21.25" textsize="1" textratio="20" layer="47" dtype="vertical"/>
 <text x="92.25" y="-3" size="1.2" layer="21" font="vector" ratio="15" align="bottom-right">roysmeding.nl/projects/induction-heater</text>
 <hole x="94" y="2" drill="3.5"/>
@@ -583,7 +539,7 @@ March 2015, CC-BY</text>
 <hole x="94" y="92" drill="3.5"/>
 <dimension x1="4" y1="92" x2="94" y2="92" x3="49" y3="105" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="14" y1="-0.5" x2="94" y2="2" x3="54" y3="-17" textsize="1.778" layer="47" dtype="horizontal"/>
-<dimension x1="94" y1="2" x2="94" y2="92" x3="125" y3="47" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="94" y1="2" x2="94" y2="92" x3="110" y3="47" textsize="1.778" layer="47" dtype="horizontal"/>
 <polygon width="0.4" layer="21">
 <vertex x="-0.25" y="95.25"/>
 <vertex x="-1.25" y="93.25"/>
@@ -618,7 +574,6 @@ March 2015, CC-BY</text>
 </polygon>
 <text x="87" y="52.75" size="4" layer="21" font="vector" ratio="15" align="center-right">2</text>
 <text x="87" y="32.75" size="4" layer="21" font="vector" ratio="15" align="center-right">1</text>
-<wire x1="115" y1="60.25" x2="115" y2="45.25" width="0.4064" layer="47"/>
 <wire x1="-4" y1="84" x2="-1.75" y2="84" width="0.4064" layer="47"/>
 </plain>
 <libraries>
@@ -673,22 +628,6 @@ Source: http://www.ixys.com/91529.pdf</description>
 <rectangle x1="-6.5" y1="-2.94" x2="-4.5" y2="-2.14" layer="51"/>
 <rectangle x1="-1" y1="-2.94" x2="1" y2="-2.14" layer="51"/>
 <rectangle x1="4.5" y1="-2.94" x2="6.5" y2="-2.14" layer="51"/>
-</package>
-<package name="SCREW">
-<pad name="P$1" x="-2.5" y="-4" drill="1.2"/>
-<pad name="P$2" x="-2.5" y="4" drill="1.2"/>
-<pad name="P$3" x="2.5" y="4" drill="1.2"/>
-<pad name="P$4" x="2.5" y="-4" drill="1.2"/>
-<wire x1="-6.5" y1="-4.5" x2="3" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="3" y1="-4.5" x2="3" y2="4.5" width="0.127" layer="21"/>
-<wire x1="3" y1="4.5" x2="-6.5" y2="4.5" width="0.127" layer="21"/>
-<wire x1="-6.5" y1="4.5" x2="-6.5" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="-6.5" y1="-4.5" x2="-9.5" y2="-7.5" width="0.127" layer="21"/>
-<wire x1="-9.5" y1="-7.5" x2="-23.5" y2="-7.5" width="0.127" layer="21"/>
-<wire x1="-23.5" y1="-7.5" x2="-23.5" y2="7.5" width="0.127" layer="21"/>
-<wire x1="-23.5" y1="7.5" x2="-9.5" y2="7.5" width="0.127" layer="21"/>
-<wire x1="-9.5" y1="7.5" x2="-6.5" y2="4.5" width="0.127" layer="21"/>
-<text x="4" y="0" size="2" layer="25" font="vector" ratio="15" align="center-left">&gt;NAME</text>
 </package>
 <package name="C-R76">
 <pad name="P$1" x="-7.5" y="0" drill="1"/>
@@ -761,77 +700,67 @@ Source: http://www.ixys.com/91529.pdf</description>
 <wire x1="-1.9" y1="2.4" x2="1.9" y2="2.4" width="0.2" layer="21"/>
 <wire x1="1.9" y1="-2.4" x2="-1.9" y2="-2.4" width="0.2" layer="21"/>
 </package>
-</packages>
-</library>
-<library name="pinhead">
-<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="1X02">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<package name="CON-2POS-NS25">
+<pad name="1" x="-1.27" y="0" drill="0.8" shape="square" first="yes"/>
+<pad name="2" x="1.27" y="0" drill="0.8"/>
+<wire x1="-2.54" y1="2.9" x2="2.54" y2="2.9" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="2.9" x2="2.54" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-2.9" x2="-2.54" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-2.9" x2="-2.54" y2="2.9" width="0.2032" layer="21"/>
 </package>
-<package name="1X04">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="1.27" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-0.635" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="4.445" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0.635" x2="5.08" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-5.1562" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
-<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+<package name="CON-4POS-NS25">
+<pad name="1" x="-3.81" y="0" drill="0.8" shape="square" first="yes"/>
+<pad name="2" x="-1.27" y="0" drill="0.8"/>
+<wire x1="-5.08" y1="2.9" x2="5.08" y2="2.9" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="2.9" x2="5.08" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="-2.9" x2="-5.08" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="-2.9" x2="-5.08" y2="2.9" width="0.2032" layer="21"/>
+<pad name="3" x="1.27" y="0" drill="0.8"/>
+<pad name="4" x="3.81" y="0" drill="0.8"/>
+</package>
+<package name="TE-350824-1">
+<description>amp mate-n-lok, 2 pos, female, pcb mount</description>
+<pad name="1" x="-3.175" y="0" drill="1.778"/>
+<pad name="2" x="3.175" y="0" drill="1.778"/>
+<wire x1="-6.985" y1="-3.81" x2="6.985" y2="-3.81" width="0.254" layer="21"/>
+<wire x1="6.985" y1="-3.81" x2="6.985" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="6.985" y1="1.27" x2="6.985" y2="3.81" width="0.254" layer="21"/>
+<wire x1="6.985" y1="3.81" x2="-6.985" y2="3.81" width="0.254" layer="21"/>
+<wire x1="-6.985" y1="3.81" x2="-6.985" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-6.985" y1="-1.27" x2="-6.985" y2="-3.81" width="0.254" layer="21"/>
+<wire x1="-6.985" y1="-1.27" x2="-7.3152" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-7.3152" y1="-1.27" x2="-9.525" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-9.525" y1="-1.27" x2="-9.525" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-9.525" y1="1.27" x2="-7.3152" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-7.3152" y1="1.27" x2="-6.985" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-7.3152" y1="1.27" x2="-7.3152" y2="-1.27" width="0.1778" layer="21"/>
+<wire x1="7.3152" y1="-1.27" x2="7.3152" y2="1.27" width="0.1778" layer="21"/>
+<wire x1="7.3152" y1="1.27" x2="6.985" y2="1.27" width="0.254" layer="21"/>
+<wire x1="7.3152" y1="-1.27" x2="6.985" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="7.3152" y1="1.27" x2="9.525" y2="1.27" width="0.254" layer="21"/>
+<wire x1="9.525" y1="1.27" x2="9.525" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="9.525" y1="-1.27" x2="7.3152" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-5.969" y1="0" x2="-0.381" y2="0" width="0.254" layer="21" curve="-180"/>
+<wire x1="-5.969" y1="0" x2="-5.969" y2="-2.794" width="0.254" layer="21"/>
+<wire x1="-5.969" y1="-2.794" x2="-0.381" y2="-2.794" width="0.254" layer="21"/>
+<wire x1="-0.381" y1="-2.794" x2="-0.381" y2="0" width="0.254" layer="21"/>
+<wire x1="0.381" y1="-2.794" x2="5.969" y2="-2.794" width="0.254" layer="21"/>
+<wire x1="5.969" y1="-2.794" x2="5.969" y2="0" width="0.254" layer="21"/>
+<wire x1="5.969" y1="0" x2="0.381" y2="0" width="0.254" layer="21" curve="180"/>
+<wire x1="0.381" y1="0" x2="0.381" y2="-2.794" width="0.254" layer="21"/>
+<circle x="-3.175" y="0" radius="1.5875" width="0.254" layer="51"/>
+<circle x="3.175" y="0" radius="1.5875" width="0.254" layer="51"/>
+<text x="-3.175" y="4.318" size="1.27" layer="21" font="vector" ratio="20" rot="R90" align="center-left">1</text>
+<text x="3.175" y="4.318" size="1.27" layer="21" font="vector" ratio="20" rot="R90" align="center-left">2</text>
+<wire x1="-6.985" y1="-3.81" x2="-6.985" y2="-5.08" width="0.254" layer="21"/>
+<wire x1="-6.985" y1="-5.08" x2="-5.715" y2="-5.08" width="0.254" layer="21"/>
+<wire x1="-5.715" y1="-5.08" x2="-5.715" y2="-3.81" width="0.254" layer="21"/>
+<wire x1="6.985" y1="-3.81" x2="6.985" y2="-5.08" width="0.254" layer="21"/>
+<wire x1="6.985" y1="-5.08" x2="5.715" y2="-5.08" width="0.254" layer="21"/>
+<wire x1="5.715" y1="-5.08" x2="5.715" y2="-3.81" width="0.254" layer="21"/>
+<wire x1="-0.635" y1="-3.81" x2="-0.635" y2="-5.08" width="0.254" layer="21"/>
+<wire x1="-0.635" y1="-5.08" x2="0.635" y2="-5.08" width="0.254" layer="21"/>
+<wire x1="0.635" y1="-5.08" x2="0.635" y2="-3.81" width="0.254" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1140,8 +1069,6 @@ Taken from the document &lt;a href="http://www.vishay.com/docs/60119/landpattern
 <element name="IGBT2L" library="induction-heater" package="TO-247AD-V" value="IXGR32N60CD1" x="91" y="83.5" smashed="yes">
 <attribute name="NAME" x="88.5" y="84" size="2" layer="25" font="vector" ratio="15" align="bottom-center"/>
 </element>
-<element name="OUT1" library="induction-heater" package="SCREW" value="OUT1" x="91.5" y="32.75" smashed="yes" rot="R180"/>
-<element name="OUT2" library="induction-heater" package="SCREW" value="OUT2" x="91.5" y="52.75" smashed="yes" rot="R180"/>
 <element name="CS1H" library="induction-heater" package="C-R76" value="" x="31" y="67" smashed="yes" rot="R180">
 <attribute name="NAME" x="40.25" y="71.75" size="1.5" layer="25" font="vector" ratio="15" align="bottom-right"/>
 <attribute name="VALUE" x="22" y="62" size="1.5" layer="21" font="vector" ratio="15" rot="R180" align="bottom-right"/>
@@ -1258,14 +1185,6 @@ Taken from the document &lt;a href="http://www.vishay.com/docs/60119/landpattern
 <element name="CB2H" library="passives" package="C-0805" value="1µF" x="64.75" y="9.5" smashed="yes">
 <attribute name="NAME" x="62.75" y="9.25" size="1" layer="25" font="vector" ratio="15" align="center-right"/>
 </element>
-<element name="JP1" library="pinhead" package="1X04" value="control" x="9" y="8.69" smashed="yes" rot="R270">
-<attribute name="NAME" x="9" y="14.25" size="1" layer="25" font="vector" ratio="15" align="bottom-center"/>
-<attribute name="VALUE" x="8.25" y="3.5" size="1.25" layer="27" font="vector" ratio="15" align="top-center"/>
-</element>
-<element name="JP2" library="pinhead" package="1X02" value="power" x="9" y="21" smashed="yes" rot="R270">
-<attribute name="NAME" x="9" y="18" size="1" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="9" y="23.75" size="1.25" layer="27" font="vector" ratio="15" rot="R180" align="top-center"/>
-</element>
 <element name="CB" library="passives" package="CPOL-PANASONIC-B" value="100µF" x="16" y="20" smashed="yes" rot="R270">
 <attribute name="NAME" x="16" y="16" size="1" layer="25" font="vector" ratio="15" align="top-center"/>
 </element>
@@ -1277,8 +1196,6 @@ Taken from the document &lt;a href="http://www.vishay.com/docs/60119/landpattern
 <attribute name="NAME" x="70.5" y="12.25" size="1" layer="25" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="VALUE" x="67.96" y="10.885" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="AC1" library="induction-heater" package="SCREW" value="AC1" x="4.5" y="66.5"/>
-<element name="AC2" library="induction-heater" package="SCREW" value="AC2" x="4.5" y="46.5"/>
 <element name="TP_GNDA" library="testpad" package="P1-13" value="GND" x="5" y="0" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="3.73" y="-2.54" size="1" layer="37"/>
 </element>
@@ -1306,79 +1223,42 @@ Taken from the document &lt;a href="http://www.vishay.com/docs/60119/landpattern
 <attribute name="TP_SIGNAL_NAME" value="" x="78" y="2.095" size="1" layer="37"/>
 <attribute name="VALUE" x="78.75" y="4" size="1" layer="27" font="vector" ratio="15" align="center-left"/>
 </element>
+<element name="J1" library="induction-heater" package="CON-2POS-NS25" value="CON-2POS-NS25" x="9.25" y="21" rot="R270"/>
+<element name="J2" library="induction-heater" package="CON-4POS-NS25" value="CON-4POS-NS25" x="9.25" y="8.7" rot="R270"/>
+<element name="J3" library="induction-heater" package="TE-350824-1" value="CON-2POS-MNL" x="4" y="65.5" rot="R270"/>
+<element name="J4" library="induction-heater" package="TE-350824-1" value="CON-2POS-MNL" x="92" y="43" rot="R90"/>
 </elements>
 <signals>
 <signal name="AC2">
 <contactref element="BR1" pad="AC2"/>
-<polygon width="0.5" layer="16" isolate="3" thermals="no">
-<vertex x="19" y="41.25"/>
+<polygon width="0.5" layer="16" isolate="2" thermals="no" rank="2">
+<vertex x="19" y="59.25"/>
 <vertex x="19" y="81.75" curve="90"/>
 <vertex x="18" y="82.75"/>
 <vertex x="16" y="82.75" curve="90"/>
 <vertex x="15" y="81.75"/>
-<vertex x="15" y="63.25" curve="-90"/>
-<vertex x="5.5" y="53.75"/>
-<vertex x="-0.5" y="53.75" curve="90"/>
-<vertex x="-1.5" y="52.75"/>
-<vertex x="-1.5" y="40.25" curve="90"/>
-<vertex x="-0.5" y="39.25"/>
-<vertex x="17" y="39.25" curve="90"/>
+<vertex x="15" y="71.45" curve="-90"/>
+<vertex x="7.5" y="63.95"/>
+<vertex x="-0.5" y="63.95" curve="90"/>
+<vertex x="-1.5" y="62.95"/>
+<vertex x="-1.5" y="58.25" curve="90"/>
+<vertex x="-0.5" y="57.25"/>
+<vertex x="17" y="57.25" curve="90"/>
 </polygon>
-<polygon width="0.5" layer="1" isolate="3" thermals="no" rank="3">
-<vertex x="19" y="41.25"/>
+<polygon width="0.5" layer="1" isolate="2" thermals="no" rank="2">
+<vertex x="19" y="59.25"/>
 <vertex x="19" y="81.75" curve="90"/>
 <vertex x="18" y="82.75"/>
 <vertex x="16" y="82.75" curve="90"/>
 <vertex x="15" y="81.75"/>
-<vertex x="15" y="63.25" curve="-90"/>
-<vertex x="5.5" y="53.75"/>
-<vertex x="-0.5" y="53.75" curve="90"/>
-<vertex x="-1.5" y="52.75"/>
-<vertex x="-1.5" y="40.25" curve="90"/>
-<vertex x="-0.5" y="39.25"/>
-<vertex x="17" y="39.25" curve="90"/>
+<vertex x="15" y="71.45" curve="-90"/>
+<vertex x="7.5" y="63.95"/>
+<vertex x="-0.5" y="63.95" curve="90"/>
+<vertex x="-1.5" y="62.95"/>
+<vertex x="-1.5" y="58.25" curve="90"/>
+<vertex x="-0.5" y="57.25"/>
+<vertex x="17" y="57.25" curve="90"/>
 </polygon>
-<contactref element="AC2" pad="P$1"/>
-<contactref element="AC2" pad="P$3"/>
-<contactref element="AC2" pad="P$2"/>
-<contactref element="AC2" pad="P$4"/>
-<via x="-0.75" y="53" extent="1-16" drill="0.4"/>
-<via x="8.75" y="53" extent="1-16" drill="0.4"/>
-<via x="8.75" y="40" extent="1-16" drill="0.4"/>
-<via x="-0.75" y="40" extent="1-16" drill="0.4"/>
-<via x="4.5" y="40" extent="1-16" drill="0.4"/>
-<via x="4.5" y="53" extent="1-16" drill="0.4"/>
-<via x="4.5" y="46.5" extent="1-16" drill="0.4"/>
-<via x="-0.75" y="46.5" extent="1-16" drill="0.4"/>
-<via x="8.25" y="46.5" extent="1-16" drill="0.4"/>
-<via x="9.25" y="49" extent="1-16" drill="0.4"/>
-<via x="8.75" y="43.75" extent="1-16" drill="0.4"/>
-<via x="4.5" y="43.75" extent="1-16" drill="0.4"/>
-<via x="4.5" y="49.5" extent="1-16" drill="0.4"/>
-<via x="2" y="48.25" extent="1-16" drill="0.4"/>
-<via x="2" y="44.75" extent="1-16" drill="0.4"/>
-<via x="-0.75" y="49.75" extent="1-16" drill="0.4"/>
-<via x="-0.75" y="43.25" extent="1-16" drill="0.4"/>
-<via x="12.25" y="40" extent="1-16" drill="0.4"/>
-<via x="16.25" y="40" extent="1-16" drill="0.4"/>
-<via x="18.25" y="42" extent="1-16" drill="0.4"/>
-<via x="18.25" y="46" extent="1-16" drill="0.4"/>
-<via x="16.25" y="44" extent="1-16" drill="0.4"/>
-<via x="14.25" y="42" extent="1-16" drill="0.4"/>
-<via x="12.25" y="44" extent="1-16" drill="0.4"/>
-<via x="14.25" y="46" extent="1-16" drill="0.4"/>
-<via x="16.25" y="48" extent="1-16" drill="0.4"/>
-<via x="18.25" y="50" extent="1-16" drill="0.4"/>
-<via x="18.3" y="55.05" extent="1-16" drill="0.4"/>
-<via x="16.25" y="53.25" extent="1-16" drill="0.4"/>
-<via x="14.75" y="51" extent="1-16" drill="0.4"/>
-<via x="12.75" y="48.5" extent="1-16" drill="0.4"/>
-<via x="10.25" y="42" extent="1-16" drill="0.4"/>
-<via x="10.25" y="46" extent="1-16" drill="0.4"/>
-<via x="13" y="52.5" extent="1-16" drill="0.4"/>
-<via x="10.75" y="51" extent="1-16" drill="0.4"/>
-<via x="14.75" y="55.5" extent="1-16" drill="0.4"/>
-<via x="16.5" y="56.5" extent="1-16" drill="0.4"/>
 <via x="17.75" y="58.25" extent="1-16" drill="0.4"/>
 <via x="17.75" y="61.5" extent="1-16" drill="0.4"/>
 <via x="15.75" y="60" extent="1-16" drill="0.4"/>
@@ -1391,19 +1271,17 @@ Taken from the document &lt;a href="http://www.vishay.com/docs/60119/landpattern
 <via x="18.25" y="74" extent="1-16" drill="0.4"/>
 <via x="18.25" y="78" extent="1-16" drill="0.4"/>
 <via x="13.75" y="57.5" extent="1-16" drill="0.4"/>
-<via x="11.75" y="55.5" extent="1-16" drill="0.4"/>
 <via x="15.75" y="82" extent="1-16" drill="0.4"/>
-<via x="6.5" y="45" extent="1-16" drill="0.4"/>
-<via x="6.5" y="48" extent="1-16" drill="0.4"/>
 <via x="18.25" y="82" extent="1-16" drill="0.4"/>
 <via x="15.75" y="79" extent="1-16" drill="0.4"/>
+<contactref element="J3" pad="2"/>
 </signal>
 <signal name="AC1">
 <contactref element="BR1" pad="AC1"/>
-<polygon width="0.5" layer="16" isolate="3" thermals="no">
-<vertex x="-0.5" y="59.25"/>
-<vertex x="7.25" y="59.25" curve="90"/>
-<vertex x="11.25" y="63.25"/>
+<polygon width="0.5" layer="16" isolate="2" thermals="no">
+<vertex x="-0.5" y="67.05"/>
+<vertex x="7.25" y="67.05" curve="90"/>
+<vertex x="11.25" y="71.05"/>
 <vertex x="11.25" y="81.75" curve="90"/>
 <vertex x="10.25" y="82.75"/>
 <vertex x="7.75" y="82.75" curve="90"/>
@@ -1412,12 +1290,12 @@ Taken from the document &lt;a href="http://www.vishay.com/docs/60119/landpattern
 <vertex x="1.75" y="73.75"/>
 <vertex x="-0.5" y="73.75" curve="90"/>
 <vertex x="-1.5" y="72.75"/>
-<vertex x="-1.5" y="60.25" curve="90"/>
+<vertex x="-1.5" y="68.05" curve="90"/>
 </polygon>
-<polygon width="0.5" layer="1" isolate="3" thermals="no">
-<vertex x="-0.5" y="59.25"/>
-<vertex x="7.25" y="59.25" curve="90"/>
-<vertex x="11.25" y="63.25"/>
+<polygon width="0.5" layer="1" isolate="2" thermals="no">
+<vertex x="-0.5" y="67.05"/>
+<vertex x="7.25" y="67.05" curve="90"/>
+<vertex x="11.25" y="71.05"/>
 <vertex x="11.25" y="81.75" curve="90"/>
 <vertex x="10.25" y="82.75"/>
 <vertex x="7.75" y="82.75" curve="90"/>
@@ -1426,52 +1304,34 @@ Taken from the document &lt;a href="http://www.vishay.com/docs/60119/landpattern
 <vertex x="1.75" y="73.75"/>
 <vertex x="-0.5" y="73.75" curve="90"/>
 <vertex x="-1.5" y="72.75"/>
-<vertex x="-1.5" y="60.25" curve="90"/>
+<vertex x="-1.5" y="68.05" curve="90"/>
 </polygon>
-<contactref element="AC1" pad="P$1"/>
-<contactref element="AC1" pad="P$3"/>
-<contactref element="AC1" pad="P$2"/>
-<contactref element="AC1" pad="P$4"/>
 <via x="7.5" y="82" extent="1-16" drill="0.4"/>
 <via x="7.5" y="78" extent="1-16" drill="0.4"/>
 <via x="10.5" y="76" extent="1-16" drill="0.4"/>
 <via x="10.5" y="72" extent="1-16" drill="0.4"/>
 <via x="9" y="69.25" extent="1-16" drill="0.4"/>
-<via x="9" y="63.5" extent="1-16" drill="0.4"/>
-<via x="9.5" y="61" extent="1-16" drill="0.4"/>
 <via x="5.75" y="74.5" extent="1-16" drill="0.4"/>
 <via x="-0.75" y="73" extent="1-16" drill="0.4"/>
-<via x="-0.75" y="60" extent="1-16" drill="0.4"/>
-<via x="4.5" y="63.75" extent="1-16" drill="0.4"/>
-<via x="6.75" y="60" extent="1-16" drill="0.4"/>
-<via x="3.25" y="60" extent="1-16" drill="0.4"/>
-<via x="-0.75" y="63.25" extent="1-16" drill="0.4"/>
-<via x="-0.75" y="66.5" extent="1-16" drill="0.4"/>
 <via x="-0.75" y="69.75" extent="1-16" drill="0.4"/>
-<via x="4.5" y="66.5" extent="1-16" drill="0.4"/>
 <via x="4.5" y="69.25" extent="1-16" drill="0.4"/>
-<via x="2" y="64.75" extent="1-16" drill="0.4"/>
 <via x="2" y="68.25" extent="1-16" drill="0.4"/>
 <via x="2" y="72.75" extent="1-16" drill="0.4"/>
 <via x="8.5" y="72.75" extent="1-16" drill="0.4"/>
-<via x="8.5" y="66.5" extent="1-16" drill="0.4"/>
-<via x="6.75" y="64.75" extent="1-16" drill="0.4"/>
 <via x="6.75" y="68.25" extent="1-16" drill="0.4"/>
-<via x="10.5" y="68.25" extent="1-16" drill="0.4"/>
-<via x="10.5" y="65.5" extent="1-16" drill="0.4"/>
 <via x="5" y="72" extent="1-16" drill="0.4"/>
 <via x="8.25" y="75.25" extent="1-16" drill="0.4"/>
+<contactref element="J3" pad="1"/>
 </signal>
 <signal name="OUT1">
 <contactref element="IGBT1H" pad="S"/>
 <contactref element="IGBT1L" pad="D"/>
-<contactref element="OUT1" pad="P$1"/>
 <contactref element="CS1L" pad="P$2"/>
 <contactref element="CS1H" pad="P$1"/>
 <polygon width="0.5" layer="16" isolate="3" thermals="no" rank="4">
-<vertex x="96.5" y="40"/>
-<vertex x="63.07106875" y="40" curve="-45"/>
-<vertex x="59.535534375" y="41.464465625"/>
+<vertex x="96.5" y="41.2"/>
+<vertex x="61.87106875" y="41.2" curve="-45"/>
+<vertex x="58.335534375" y="42.664465625"/>
 <vertex x="52.798096875" y="48.201903125" curve="-45"/>
 <vertex x="50.5" y="53.75"/>
 <vertex x="50.5" y="68.878678125" curve="-45"/>
@@ -1492,15 +1352,12 @@ Taken from the document &lt;a href="http://www.vishay.com/docs/60119/landpattern
 <vertex x="38.76040625" y="72.01040625"/>
 <vertex x="35.939340625" y="69.189340625" curve="45.000119"/>
 <vertex x="35.5" y="68.128678125"/>
-<vertex x="35.5" y="32.5" curve="90"/>
-<vertex x="40.5" y="27.5"/>
-<vertex x="96.5" y="27.5" curve="90"/>
-<vertex x="97.5" y="28.5"/>
-<vertex x="97.5" y="39" curve="90"/>
+<vertex x="35.5" y="34.5" curve="90"/>
+<vertex x="40.5" y="29.5"/>
+<vertex x="96.5" y="29.5" curve="90"/>
+<vertex x="97.5" y="30.5"/>
+<vertex x="97.5" y="40.2" curve="90"/>
 </polygon>
-<contactref element="OUT1" pad="P$2"/>
-<contactref element="OUT1" pad="P$3"/>
-<contactref element="OUT1" pad="P$4"/>
 <contactref element="GDT1" pad="SEC1-2"/>
 <contactref element="RP1H" pad="1"/>
 <contactref element="DP1HB" pad="C"/>
@@ -1537,14 +1394,14 @@ Taken from the document &lt;a href="http://www.vishay.com/docs/60119/landpattern
 <vertex x="43.25" y="61.75" curve="90"/>
 </polygon>
 <polygon width="0.5" layer="1" thermals="no">
-<vertex x="96.5" y="40"/>
-<vertex x="88.25" y="40" curve="90"/>
-<vertex x="87.25" y="39"/>
-<vertex x="87.25" y="28.5" curve="90"/>
-<vertex x="88.25" y="27.5"/>
-<vertex x="96.5" y="27.5" curve="90"/>
-<vertex x="97.5" y="28.5"/>
-<vertex x="97.5" y="39" curve="90"/>
+<vertex x="96.5" y="41.2"/>
+<vertex x="88.25" y="41.2" curve="90"/>
+<vertex x="87.25" y="40.2"/>
+<vertex x="87.25" y="30.5" curve="90"/>
+<vertex x="88.25" y="29.5"/>
+<vertex x="96.5" y="29.5" curve="90"/>
+<vertex x="97.5" y="30.5"/>
+<vertex x="97.5" y="40.2" curve="90"/>
 </polygon>
 <wire x1="33.5" y1="73.25" x2="33.5" y2="63.642134375" width="1" layer="1"/>
 <wire x1="33.5" y1="63.642134375" x2="36.42893125" y2="56.57106875" width="1" layer="1" curve="44.999987"/>
@@ -1562,8 +1419,6 @@ Taken from the document &lt;a href="http://www.vishay.com/docs/60119/landpattern
 <via x="44.25" y="64.5" extent="1-16" drill="0.4"/>
 <via x="42.25" y="77.5" extent="1-16" drill="0.4"/>
 <via x="91.5" y="32.75" extent="1-16" drill="0.4"/>
-<via x="96.75" y="28.25" extent="1-16" drill="0.4"/>
-<via x="91.5" y="28.25" extent="1-16" drill="0.4"/>
 <via x="38.25" y="62.5" extent="1-16" drill="0.4"/>
 <via x="42.25" y="62.5" extent="1-16" drill="0.4"/>
 <via x="92.5" y="39.25" extent="1-16" drill="0.4"/>
@@ -1576,15 +1431,15 @@ Taken from the document &lt;a href="http://www.vishay.com/docs/60119/landpattern
 <via x="88.75" y="31.25" extent="1-16" drill="0.4"/>
 <via x="91.5" y="36" extent="1-16" drill="0.4"/>
 <via x="88" y="39.25" extent="1-16" drill="0.4"/>
+<contactref element="J4" pad="1"/>
 </signal>
 <signal name="OUT2">
 <contactref element="IGBT2H" pad="S"/>
 <contactref element="IGBT2L" pad="D"/>
-<contactref element="OUT2" pad="P$1"/>
 <contactref element="CS2H" pad="P$1"/>
 <contactref element="CS2L" pad="P$2"/>
 <polygon width="0.5" layer="16" isolate="3" thermals="no" rank="4">
-<vertex x="92" y="63.25"/>
+<vertex x="92" y="61.25"/>
 <vertex x="92" y="82.25" curve="90"/>
 <vertex x="91" y="83.25" curve="90"/>
 <vertex x="90" y="82.25"/>
@@ -1600,17 +1455,14 @@ Taken from the document &lt;a href="http://www.vishay.com/docs/60119/landpattern
 <vertex x="68.75" y="60.75" curve="-45"/>
 <vertex x="65.732234375" y="59.5"/>
 <vertex x="61.5" y="59.5"/>
-<vertex x="69.4874375" y="51.8158625" curve="-66.964316"/>
-<vertex x="70.713078125" y="45.5"/>
-<vertex x="96.5" y="45.5" curve="90"/>
-<vertex x="97.5" y="46.5"/>
-<vertex x="97.5" y="58" curve="90"/>
-<vertex x="96.5" y="59"/>
-<vertex x="96.25" y="59" curve="-90"/>
+<vertex x="69.4874375" y="51.8158625" curve="-90"/>
+<vertex x="69.513078125" y="44.3"/>
+<vertex x="96.5" y="44.3" curve="90"/>
+<vertex x="97.5" y="45.3"/>
+<vertex x="97.5" y="56" curve="90"/>
+<vertex x="96.5" y="57"/>
+<vertex x="96.25" y="57" curve="-90"/>
 </polygon>
-<contactref element="OUT2" pad="P$2"/>
-<contactref element="OUT2" pad="P$3"/>
-<contactref element="OUT2" pad="P$4"/>
 <contactref element="GDT2" pad="SEC1-2"/>
 <contactref element="RP2H" pad="1"/>
 <contactref element="DP2HB" pad="C"/>
@@ -1643,14 +1495,14 @@ Taken from the document &lt;a href="http://www.vishay.com/docs/60119/landpattern
 <vertex x="81.48856875" y="72.7728625" curve="-26.56503"/>
 </polygon>
 <polygon width="0.5" layer="1" thermals="no">
-<vertex x="96.5" y="59"/>
-<vertex x="88.25" y="59" curve="90"/>
-<vertex x="87.25" y="58"/>
-<vertex x="87.25" y="46.5" curve="90"/>
-<vertex x="88.25" y="45.5"/>
-<vertex x="96.5" y="45.5" curve="90"/>
-<vertex x="97.5" y="46.5"/>
-<vertex x="97.5" y="58" curve="90"/>
+<vertex x="96.5" y="57"/>
+<vertex x="88.25" y="57" curve="90"/>
+<vertex x="87.25" y="56"/>
+<vertex x="87.25" y="45.3" curve="90"/>
+<vertex x="88.25" y="44.3"/>
+<vertex x="96.5" y="44.3" curve="90"/>
+<vertex x="97.5" y="45.3"/>
+<vertex x="97.5" y="56" curve="90"/>
 </polygon>
 <wire x1="78.4" y1="22.6" x2="76.7" y2="26.7041625" width="1" layer="1" curve="-45"/>
 <wire x1="69.9395" y1="73.5" x2="70" y2="73.5" width="0.8" layer="1"/>
@@ -1659,8 +1511,6 @@ Taken from the document &lt;a href="http://www.vishay.com/docs/60119/landpattern
 <wire x1="72.92893125" y1="55.89949375" x2="73.18528125" y2="55.64314375" width="1" layer="1"/>
 <wire x1="73.18528125" y1="55.64314375" x2="76.7" y2="47.1578625" width="1" layer="1" curve="-45"/>
 <wire x1="76.7" y1="47.1578625" x2="76.7" y2="26.7041625" width="1" layer="1"/>
-<via x="88" y="58.25" extent="1-16" drill="0.4"/>
-<via x="91.5" y="58.25" extent="1-16" drill="0.4"/>
 <via x="91.5" y="52.75" extent="1-16" drill="0.4"/>
 <via x="88" y="52.75" extent="1-16" drill="0.4"/>
 <via x="96.75" y="52.75" extent="1-16" drill="0.4"/>
@@ -1674,7 +1524,6 @@ Taken from the document &lt;a href="http://www.vishay.com/docs/60119/landpattern
 <via x="96.75" y="47.25" extent="1-16" drill="0.4"/>
 <via x="88" y="47.25" extent="1-16" drill="0.4"/>
 <via x="92.5" y="47.25" extent="1-16" drill="0.4"/>
-<via x="96.75" y="58.25" extent="1-16" drill="0.4"/>
 <via x="76.75" y="64.25" extent="1-16" drill="0.4"/>
 <via x="75.25" y="66.25" extent="1-16" drill="0.4"/>
 <via x="78.25" y="69.75" extent="1-16" drill="0.4"/>
@@ -1689,6 +1538,7 @@ Taken from the document &lt;a href="http://www.vishay.com/docs/60119/landpattern
 <via x="94.75" y="46.25" extent="1-16" drill="0.4"/>
 <via x="81.25" y="69.5" extent="1-16" drill="0.4"/>
 <via x="79.25" y="67.5" extent="1-16" drill="0.4"/>
+<contactref element="J4" pad="2"/>
 </signal>
 <signal name="N$11" class="1">
 <contactref element="IGBT1H" pad="G"/>
@@ -1788,15 +1638,14 @@ Taken from the document &lt;a href="http://www.vishay.com/docs/60119/landpattern
 <wire x1="61.213428125" y1="14.385" x2="61.65" y2="14.385" width="0.4" layer="1"/>
 <wire x1="58.75" y1="5.135" x2="58.75" y2="11.921571875" width="0.4" layer="1"/>
 <wire x1="58.75" y1="11.921571875" x2="59.3357875" y2="13.3357875" width="0.4" layer="1" curve="-45.000063"/>
-<contactref element="JP1" pad="3"/>
-<wire x1="23.767765625" y1="-2.25" x2="49.29393125" y2="-2.25" width="0.4" layer="1"/>
-<wire x1="49.29393125" y1="-2.25" x2="52.829465625" y2="-0.785534375" width="0.4" layer="1" curve="45"/>
-<wire x1="52.829465625" y1="-0.785534375" x2="58.75" y2="5.135" width="0.4" layer="1"/>
-<wire x1="9" y1="7.42" x2="10.501571875" y2="7.42" width="0.4" layer="16"/>
-<wire x1="23.767765625" y1="-2.25" x2="20.75" y2="-1" width="0.4" layer="1" curve="-50"/>
-<wire x1="20.75" y1="-1" x2="15.794465625" y2="5.955534375" width="0.4" layer="1"/>
-<wire x1="15.794465625" y1="5.955534375" x2="12.25893125" y2="7.42" width="0.4" layer="1" curve="54.532"/>
-<wire x1="12.25893125" y1="7.42" x2="9" y2="7.42" width="0.4" layer="1"/>
+<contactref element="J2" pad="3"/>
+<wire x1="9.25" y1="7.43" x2="11.49893125" y2="7.43" width="0.4064" layer="1"/>
+<wire x1="11.49893125" y1="7.43" x2="15.034465625" y2="5.965534375" width="0.4064" layer="1" curve="-45"/>
+<wire x1="15.034465625" y1="5.965534375" x2="22.517765625" y2="-1.517765625" width="0.4064" layer="1"/>
+<wire x1="22.517765625" y1="-1.517765625" x2="24.285534375" y2="-2.25" width="0.4064" layer="1" curve="45.000072"/>
+<wire x1="24.285534375" y1="-2.25" x2="49.29393125" y2="-2.25" width="0.4064" layer="1"/>
+<wire x1="49.29393125" y1="-2.25" x2="52.829465625" y2="-0.785534375" width="0.4064" layer="1" curve="45"/>
+<wire x1="52.829465625" y1="-0.785534375" x2="58.75" y2="5.135" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$25" class="2">
 <contactref element="IC2L" pad="6"/>
@@ -1912,14 +1761,14 @@ Taken from the document &lt;a href="http://www.vishay.com/docs/60119/landpattern
 <contactref element="CB2H" pad="2"/>
 <contactref element="CB1H" pad="2"/>
 <contactref element="CB" pad="-"/>
-<contactref element="JP1" pad="2"/>
-<contactref element="JP1" pad="4"/>
 <contactref element="TP_GNDA" pad="TP"/>
 <contactref element="TP_GNDB" pad="TP"/>
 <contactref element="TP_GNDC" pad="TP"/>
 <wire x1="66.2" y1="11.845" x2="66.85" y2="11.845" width="0.6" layer="1"/>
 <wire x1="66.85" y1="11.845" x2="67.75" y2="11.845" width="0.6" layer="1"/>
-<contactref element="JP2" pad="2"/>
+<contactref element="J1" pad="2"/>
+<contactref element="J2" pad="2"/>
+<contactref element="J2" pad="4"/>
 </signal>
 <signal name="N$19">
 <contactref element="DP1HA" pad="A"/>
@@ -1967,12 +1816,12 @@ Taken from the document &lt;a href="http://www.vishay.com/docs/60119/landpattern
 <wire x1="22.4" y1="14.385" x2="15.463428125" y2="14.385" width="0.4" layer="1"/>
 <wire x1="15.463428125" y1="14.385" x2="14.0492125" y2="13.7992125" width="0.4" layer="1" curve="45.000063"/>
 <wire x1="14.0492125" y1="13.7992125" x2="12.75" y2="12.5" width="0.4" layer="1"/>
-<contactref element="JP1" pad="1"/>
 <wire x1="22.4" y1="5.135" x2="20.943428125" y2="5.135" width="0.4" layer="1"/>
 <wire x1="20.943428125" y1="5.135" x2="19.5292125" y2="5.7207875" width="0.4" layer="1" curve="-45.000063"/>
 <wire x1="19.5292125" y1="5.7207875" x2="12.75" y2="12.5" width="0.4" layer="1"/>
-<wire x1="9" y1="12.5" x2="12.75" y2="12.5" width="0.4" layer="16"/>
 <via x="12.75" y="12.5" extent="1-16" drill="0.8"/>
+<contactref element="J2" pad="1"/>
+<wire x1="9.25" y1="12.51" x2="12.75" y2="12.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V-">
 <contactref element="IGBT1L" pad="S"/>
@@ -2373,9 +2222,9 @@ Taken from the document &lt;a href="http://www.vishay.com/docs/60119/landpattern
 <wire x1="24.55" y1="19.49" x2="24.55" y2="15.655" width="0.4" layer="1"/>
 <wire x1="63.8" y1="0.25" x2="63.8" y2="6.405" width="0.6" layer="1"/>
 <wire x1="21.77" y1="22.27" x2="16" y2="22.27" width="0.4" layer="1"/>
-<contactref element="JP2" pad="1"/>
-<wire x1="9" y1="22.27" x2="16" y2="22.27" width="0.4" layer="1"/>
-<wire x1="16" y1="22.27" x2="16" y2="22.2" width="0.4" layer="1"/>
+<contactref element="J1" pad="1"/>
+<wire x1="9.25" y1="22.27" x2="16" y2="22.27" width="0.4064" layer="1"/>
+<wire x1="16" y1="22.27" x2="16" y2="22.2" width="0.4064" layer="1"/>
 </signal>
 </signals>
 <errors>
